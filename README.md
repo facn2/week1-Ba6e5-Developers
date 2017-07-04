@@ -23,4 +23,4 @@ We have created a series of goals detailed below. We will work in pairs to compl
 * Profiles - each team member has a profile linking to github, codewars and linkedIn
 
 ### Stretch Goals
-* Previous work - include a section on giving examples of previous projecct
+* Previous work - include a section on giving examples of previous project
