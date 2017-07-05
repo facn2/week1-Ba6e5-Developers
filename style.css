@@ -52,7 +52,25 @@ h3 .top-content {
   background-color: gray;
   position: absolute;
   bottom: 7%;
+  z-index: 3;
+}
 
+.nav-container-about {
+  width: 100%;
+  position: absolute;
+  bottom: 55%;
+  z-index:999;
+}
+
+.nav-container-about ul{
+
+  position: absolute;
+  left: 25%;
+  right: 25%;
+
+}
+.nav-container-about li a {
+  font-size: 0.8em;
 }
 
 ul{
@@ -61,11 +79,13 @@ ul{
   list-style: none;
 
 }
+
 li {
   float:left;
 }
+
 li a {
-  font-size: 1.35em;
+  font-size: 1.5em;
   padding-left: 40px;
   text-decoration: none;
   text-align: center;
