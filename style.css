@@ -157,7 +157,8 @@ font-size: 0;
   width: 100%;
   height: 100vh;
   font-size: 0;
-  /*overflow-y: scroll;*/
+  overflow-y: scroll;
+  padding-right: 17px;
   display: block;
 }
 
@@ -183,7 +184,7 @@ background-color: red;
   height: 100%;
   top: 50%;
   position: absolute;
-  /*overflow: hidden;*/
+  overflow: hidden;
 }
 
 .team-content {
