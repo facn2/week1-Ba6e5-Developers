@@ -47,43 +47,32 @@ html body {
   overflow: hidden;
 
 }
+.nav-container {
+  width: 100%;
+  background-color: gray;
+  position: absolute;
+  bottom: 7%;
 
-nav {
-  position: fixed;
-  bottom: 0px;
-}
-ul {
-  list-style-type: none;
-  overflow: hidden;
-  background: gray;
 }
 
+ul{
+  width: 500px;
+  margin: 0 auto;
+  list-style: none;
 
+}
 li {
   float:left;
 }
-
-
 li a {
+  font-size: 1.35em;
+  padding-left: 40px;
   text-decoration: none;
   text-align: center;
   color:white;
 
 }
 
-header {
-  background-color: black;
-  height: 600px;
-  width: 100%;
-  margin: 0 auto;
-}
-
-header h1 {
-  text-align: center;
-  font-family: 'dosis';
-  color: #fff;
-
-}
 
 .about {
   position: relative;
