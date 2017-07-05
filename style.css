@@ -71,7 +71,7 @@ h3 .top-content {
 .nav-container-form {
   width: 100%;
   position: absolute;
-  bottom: -400%;
+  bottom: -300%;
   z-index:999;
 }
 
