@@ -1,30 +1,38 @@
-*{
+* {
   margin: 0px;
-
 }
+
 html body {
+  font-family: 'Gloria Hallelujah', cursive;
   height: 100%;
   width: 100%;
   margin: 0px;
+}
 
+.about-para {
+  text-align: center;
+  bottom: 25%;
+  position: absolute;
 }
 
 .top {
   height: 100vh;
   background-color: black;
-  width:100%;
+  width: 100%;
   position: relative;
-
 }
 
 .top-center {
-  color:white;
+  color: white;
   width: 600px;
   height: 400px;
-  background-color: grey;
-  position:absolute;
-  left:0; right:0;top:0; bottom:0;
-  margin:auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
 }
 
 .logo {
@@ -33,9 +41,8 @@ html body {
   text-align: center;
 }
 
-
 .watermelon {
-  display:block;
+  display: block;
   margin: 1em auto;
   width: 7em;
   height: 7em;
@@ -45,11 +52,10 @@ h3 .top-content {
   text-align: center;
   padding-left: 20px;
   overflow: hidden;
-
 }
+
 .nav-container {
   width: 100%;
-  background-color: gray;
   position: absolute;
   bottom: 7%;
   z-index: 3;
@@ -58,30 +64,40 @@ h3 .top-content {
 .nav-container-about {
   width: 100%;
   position: absolute;
-  bottom: 55%;
+  bottom: 60%;
   z-index:999;
+}
+
+.nav-container-form {
+  width: 100%;
+  position: absolute;
+  bottom: -400%;
+  z-index:999;
+}
+
+.nav-container-form li a {
+  font-size: 0.8em;
 }
 
 .nav-container-about ul{
 
   position: absolute;
-  left: 25%;
-  right: 25%;
+  left: 15%;
+  right: 15%;
 
 }
 .nav-container-about li a {
   font-size: 0.8em;
 }
 
-ul{
+ul {
   width: 500px;
   margin: 0 auto;
   list-style: none;
-
 }
 
 li {
-  float:left;
+  float: left;
 }
 
 li a {
@@ -89,10 +105,8 @@ li a {
   padding-left: 40px;
   text-decoration: none;
   text-align: center;
-  color:white;
-
+  color: white;
 }
-
 
 .about {
   position: relative;
@@ -108,7 +122,7 @@ li a {
   display: inline-block;
   width: 50%;
   height: 100%;
-  background-color: #F35050  ;
+  background-color: #F35050;
 }
 
 #title-content {
@@ -136,12 +150,10 @@ li a {
 
 .watermelon-wrapper {
   position: relative;
-
 }
 
 .watermelon-break {
   position: absolute;
-
 }
 
 form {
@@ -150,7 +162,7 @@ form {
   padding: 1em;
 }
 
-form div + div {
+form div+div {
   margin-top: 1em;
   margin-bottom: 1em;
 }
@@ -185,8 +197,6 @@ button {
   margin-left: .5em;
 }
 
-
-
 .form {
   position: relative;
   border: none;
@@ -201,12 +211,12 @@ button {
   text-align: center;
   margin: 0;
   width: 100%;
-  height: 100%;
+
   top: 50%;
   position: absolute;
 }
 
-.form-title{
+.form-title {
   position: absolute;
   display: inline-block;
   width: 50%;
@@ -222,11 +232,10 @@ button {
   position: absolute;
   display: inline-block;
   width: 50%;
-  height: 100%;
-  background-color: white;
-  top 10%;
-}
 
+  background-color: white;
+  top: 10%;
+}
 
 .team {
   position: relative;
@@ -235,13 +244,12 @@ button {
   width: 100%;
   height: 100vh;
   font-size: 0;
-  overflow-y: scroll;
-  padding-right: 17px;
+  /*overflow-y: scroll;*/
+  /*padding-right: 17px;*/
   display: block;
 }
 
 .team-title {
-
   position: absolute;
   display: inline-block;
   width: 50%;
@@ -252,57 +260,55 @@ button {
 
 .contact-wrapper {
   text-align: center;
-  }
+}
 
-  /*.reset-input {
+
+/*.reset-input {
   margin-bottom: 50px;
   margin-top: 30px;
   }*/
 
-  #gform {
+#gform {
   width: 90%;
   display: inline-block;
-  }
+}
 
-  #name {
+#name {
   width: 50%;
+}
 
-  }
-
-  #email {
+#email {
   width: 80%;
-  }
+}
 
-  #message {
-    width: 50%;
-  }
+#message {
+  width: 50%;
+}
 
-  .name-label {
+.name-label {
   font-size: 1rem;
+}
 
-  }
-
-  .message-label {
+.message-label {
   font-size: 1rem;
-  }
+}
 
-  .email-label {
+.email-label {
   font-size: 1rem;
-  }
+}
 
-  .h2-div {
+.h2-div {
   font-size: 1rem;
-  }
+}
 
-  #thankyou_message {
+#thankyou_message {
   margin-bottom: 30px;
-  }
+}
 
-  .button-xlarge {
+.button-xlarge {
   margin-bottom: 30px;
   width: 100%;
-  }
-
+}
 
 .team-title-content {
   font-size: 2rem;
@@ -312,11 +318,16 @@ button {
   height: 100%;
   top: 50%;
   position: absolute;
-  overflow: hidden;
+
+}
+
+.team-scroll {
+  height: 100vh;
+  overflow-y: scroll;
+  display: block;
 }
 
 .team-content {
-
   font-size: 2rem;
   margin: auto;
   text-align: center;
@@ -327,7 +338,6 @@ button {
   height: 100%;
   background-color: white;
 }
-
 
 .team-member {
   text-align: center;
@@ -343,29 +353,49 @@ button {
   margin: 40px auto;
 }
 
+
 /* Style all font awesome icons */
+
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
 }
+
 
 /* Add a hover effect if you want */
+
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
+
 
 /* Linkedin */
+
 .fa-linkedin {
-    background: white;
-    color: #3B5998;
+  background: white;
+  color: #3B5998;
 }
 
+
 /* Github */
+
 .fa-github {
-    background: white;
-    color: black;
+  background: white;
+  color: black;
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 20px;
+  color: black;
+  background-color: #F35050;
+  border: 2px;
+  border-color: green;
+  border-radius: 15px;
+  /box-shadow: green;
+  /
 }
