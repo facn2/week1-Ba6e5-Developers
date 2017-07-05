@@ -100,7 +100,7 @@ header h1 {
   display: inline-block;
   width: 50%;
   height: 100%;
-  background-color: #db7093;
+  background-color: #F35050  ;
 }
 
 #title-content {
@@ -122,8 +122,20 @@ header h1 {
   display: inline-block;
   width: 50%;
   height: 100%;
-  background-color: #e5e5ff;
+  background-color: white;
+  top 10%;
 }
+
+.watermelon-wrapper {
+  position: relative;
+
+}
+
+.watermelon-break {
+  position: absolute;
+
+}
+
 
 .form{
 position: relative;
@@ -145,7 +157,7 @@ font-size: 0;
   width: 100%;
   height: 100vh;
   font-size: 0;
-  overflow-y: scroll;
+  /*overflow-y: scroll;*/
   display: block;
 }
 
@@ -155,7 +167,8 @@ font-size: 0;
   display: inline-block;
   width: 50%;
   height: 100%;
-  background-color: #db7093;
+  background-color: black;
+  color: white;
 }
 
 .form-contact{
@@ -170,7 +183,7 @@ background-color: red;
   height: 100%;
   top: 50%;
   position: absolute;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 .team-content {
@@ -183,7 +196,7 @@ background-color: red;
   display: inline-block;
   width: 50%;
   height: 100%;
-  background-color: #e5e5ff;
+  background-color: white;
 }
 
 
