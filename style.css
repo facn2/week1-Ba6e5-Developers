@@ -1,14 +1,63 @@
+*{
+  margin: 0px;
 
-header {
-  background-color: black;
-  height:600px;
-  width:100%;
-  margin: 0 auto;
 }
-header h1 {
+html body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+
+}
+
+.top {
+  height: 100vh;
+  background-color: black;
+  width:100%;
+  position: relative;
+
+}
+
+
+.top-center {
+  color:white;
+  width: 600px;
+  height: 400px;
+  background-color: grey;
+  position:absolute;
+  left:0; right:0;top:0; bottom:0;
+  margin:auto;
+}
+
+.team {
+  margin-top: 1em;
+  font-size: 2.5em;
   text-align: center;
-  font-family:'dosis';
-  color:#fff;
+}
+
+
+.watermelon {
+  display:block;
+  margin: 1em auto;
+  width: 7em;
+  height: 7em;
+}
+
+.description{
+  text-align: center;
+  margin: 1em 2em;
+  overflow: hidden;
+
+}
+
+.top-nav {
+  position: absolute;
+  bottom: 0px;
+}
+
+
+li {
+  list-style: none;
+  text-align: center;
 }
 
 
