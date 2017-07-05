@@ -51,3 +51,37 @@ header h1 {
   height: 100%;
   background-color: #e5e5ff;
 }
+
+..... form .....
+.form{
+position: relative;
+border: none;
+margin: 0 auto;
+width: 100%;
+height: 100vh;
+font-size: 0;
+}
+
+.form-title{
+  position: absolute;
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  background-color: #db7093;
+}
+
+.form-contact{
+  font-size: 2rem;
+  margin: auto;
+  text-align: center;
+  right: 0;
+  position: absolute;
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  background-color: #e5e5ff;
+}
+----- tfasel----
+
+----- tfasel----
+..... form .....
