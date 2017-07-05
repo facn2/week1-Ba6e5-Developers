@@ -1,18 +1,80 @@
+*{
+  margin: 0px;
+
+}
+html body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+
+}
+
+.top {
+  height: 100vh;
+  background-color: black;
+  width:100%;
+  position: relative;
+
+}
+
+
+.top-center {
+  color:white;
+  width: 600px;
+  height: 400px;
+  background-color: grey;
+  position:absolute;
+  left:0; right:0;top:0; bottom:0;
+  margin:auto;
+}
+
+.logo {
+  margin-top: 1em;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+
+.watermelon {
+  display:block;
+  margin: 1em auto;
+  width: 7em;
+  height: 7em;
+}
+
+.description{
+  text-align: center;
+  margin: 1em 2em;
+  overflow: hidden;
+
+}
+
+.top-nav {
+  position: absolute;
+  bottom: 0px;
+}
+
+
+li {
+  list-style: none;
+  text-align: center;
+}
 
 header {
   background-color: black;
-  height:600px;
-  width:100%;
+  height: 600px;
+  width: 100%;
   margin: 0 auto;
 }
+
 header h1 {
   text-align: center;
-  font-family:'dosis';
-  color:#fff;
+  font-family: 'dosis';
+  color: #fff;
+
 }
 
-
-.about{
+.about {
   position: relative;
   border: none;
   margin: 0 auto;
@@ -21,7 +83,7 @@ header h1 {
   font-size: 0;
 }
 
-#about-title{
+#about-title {
   position: absolute;
   display: inline-block;
   width: 50%;
@@ -29,7 +91,7 @@ header h1 {
   background-color: #db7093;
 }
 
-#title-content{
+#title-content {
   font-size: 2rem;
   text-align: center;
   margin: 0;
@@ -37,10 +99,9 @@ header h1 {
   height: 100%;
   top: 50%;
   position: absolute;
-
 }
 
-#about-content{
+#about-content {
   font-size: 2rem;
   margin: auto;
   text-align: center;
@@ -52,7 +113,6 @@ header h1 {
   background-color: #e5e5ff;
 }
 
-..... form .....
 .form{
 position: relative;
 border: none;
@@ -63,6 +123,22 @@ font-size: 0;
 }
 
 .form-title{
+}
+
+
+.team {
+  position: relative;
+  border: none;
+  margin: 0 auto;
+  width: 100%;
+  height: 100vh;
+  font-size: 0;
+  overflow-y: scroll;
+  display: block;
+}
+
+.team-title {
+
   position: absolute;
   display: inline-block;
   width: 50%;
@@ -71,6 +147,22 @@ font-size: 0;
 }
 
 .form-contact{
+background-color: red;
+}
+
+.team-title-content {
+  font-size: 2rem;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.team-content {
+
   font-size: 2rem;
   margin: auto;
   text-align: center;
@@ -81,7 +173,18 @@ font-size: 0;
   height: 100%;
   background-color: #e5e5ff;
 }
------ tfasel----
 
------ tfasel----
-..... form .....
+
+.team-member {
+  text-align: center;
+}
+
+.img-team {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 40px auto;
+}
