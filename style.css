@@ -41,9 +41,9 @@ html body {
   height: 7em;
 }
 
-.description h3 {
+h3 .top-content {
   text-align: center;
-  margin-left: 30px;
+  padding-left: 20px;
   overflow: hidden;
 
 }
