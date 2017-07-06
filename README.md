@@ -18,8 +18,8 @@ We have created a series of goals detailed below. We will work in pairs to compl
 * Navigation bar - links to About, Team, Contact
 * Form - Including name, email and message
 * Links - all links open in the same window
-* Resopnsive - the website works well on all devices
-* Accessibility - visually impared can still use the site
+* Responsive - the website works well on all devices
+* Accessibility - visually impaired can still use the site
 * Javascript - the site is still functional with javascript disabled
 * Profiles - each team member has a profile linking to github, codewars and linkedIn
 
