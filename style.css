@@ -65,27 +65,26 @@ h3 .top-content {
   width: 100%;
   position: absolute;
   bottom: 60%;
-  z-index:999;
+  z-index: 999;
 }
 
 .nav-container-form {
   width: 100%;
   position: absolute;
   bottom: -300%;
-  z-index:999;
+  z-index: 999;
 }
 
 .nav-container-form li a {
   font-size: 0.8em;
 }
 
-.nav-container-about ul{
-
+.nav-container-about ul {
   position: absolute;
   left: 15%;
   right: 15%;
-
 }
+
 .nav-container-about li a {
   font-size: 0.8em;
 }
@@ -211,7 +210,6 @@ button {
   text-align: center;
   margin: 0;
   width: 100%;
-
   top: 50%;
   position: absolute;
 }
@@ -232,9 +230,8 @@ button {
   position: absolute;
   display: inline-block;
   width: 50%;
-
   background-color: white;
-  top: 10%;
+  /*top: 10%;*/
 }
 
 .team {
@@ -318,7 +315,6 @@ button {
   height: 100%;
   top: 50%;
   position: absolute;
-
 }
 
 .team-scroll {
